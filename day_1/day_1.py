@@ -29,8 +29,7 @@ def get_result(string_numbers):
     added = 0
     for element in string_numbers:
         added += int(element)
-        print(f"{added} - {type(added)}")
-    print(added)
+        print(added)
     return added
 
 
